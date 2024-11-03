@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "teamstabwebpart-client-side-solution",
+    "id": "5afa8575-9d18-4205-acde-53e41adfa6e4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "teamstabwebpart description"
+      },
+      "longDescription": {
+        "default": "teamstabwebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "teamstabwebpart Feature",
+        "description": "The feature that activates elements of the teamstabwebpart solution.",
+        "id": "e145e314-a0b0-4e60-9687-938a3baf475f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/teamstabwebpart.sppkg"
+  }
+}

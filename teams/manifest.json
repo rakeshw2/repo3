@@ -1,0 +1,52 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "packageName": "TeamtanWP",
+    "id": "82537f98-7a9b-4fae-b2d4-809e40750018",
+    "version": "1.0.0",
+    "developer": { 
+      "name": "Rakesh Jena",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+     },
+    "name": {
+      "short": "TeamtanWP"
+    },
+    "description": {
+      "short": "TeamtanWP description",
+      "full": "TeamtanWP description"
+    },
+    "icons": {
+      "outline": "82537f98-7a9b-4fae-b2d4-809e40750018_outline.png",
+      "color": "82537f98-7a9b-4fae-b2d4-809e40750018_color.png"
+    },
+    "accentColor": "#004578",
+    "configurableTabs": [
+      {
+        "configurationUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26componentId={{SPFX_COMPONENT_ID}}",
+        "canUpdateConfiguration": false,
+        "scopes": [
+          "team",
+          "groupchat"
+        ],
+        "context": [
+          "channelTab",
+          "privateChatTab",
+          "meetingSidePanel",
+          "meetingDetailsTab",
+          "meetingChatTab"
+        ]
+      }
+    ],
+    "validDomains": [
+      "*.login.microsoftonline.com",
+      "*.sharepoint.com",
+      "resourceseng.blob.core.windows.net"
+    ],
+    "webApplicationInfo": {
+      "resource": "https://{teamSiteDomain}",
+      "id": "00000003-0000-0ff1-ce00-000000000000"
+    }
+  }
